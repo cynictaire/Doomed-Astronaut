@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Doomed Astronaut - Audio Visualizer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="canvas.js"></script>
+</head>
+<body>
+	<canvas id="canvas" width="1000" height="600"></canvas>
+	<div id="controls">
+		<audio controls loop></audio>
+		<label>
+            <br>
+            <br>
+            Track: 
+			<select id="trackSelect" >
+                <option value="media/Lullaby.mp3">lullaby</option>
+                <option value="media/ramune.mp3">ramune</option>
+				<option value="media/Patchwork Staccato.mp3">patchwork staccato</option>
+                <option value="media/Here Comes A Thought.mp3">here comes a thought</option>
+			</select>
+		</label>
+		<button id="fsButton">Go Full Screen</button><br>
+        <label>
+            <br>
+            <b>Circle Slider</b>:
+            <input id="cSlider" type="range" min="1" max="150" step="1" value="50">
+        </label>
+        <label>
+            <br>
+            <b>Bass</b>:
+            <input id="bassFilter" type="range" min="-100" max="100" step="1" value="0">
+        </label>
+        <label>
+            <br>
+            <br>
+            <b>Filters</b>:
+            <br>
+            <input id="invertC" type="checkbox" name="Invert">
+            Invert
+            <br>
+            <input id="directionC" type="checkbox" name="Switch Direction">
+            Switch Direction
+            <br>
+            <input id="heartBeatC" type="checkbox" name="Heart Beats">
+            Toggle Heart Beat Monitor
+        </label>
+        <label>
+            <br>
+            <br>
+            <b>Colors</b>:
+            <input id="innerColor" type="color" value="#c8c800">
+            <input id="outerColor" type="color" value="#ff4500">
+        </label>
+	</div>
+</body>
+</html>

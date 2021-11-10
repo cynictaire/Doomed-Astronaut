@@ -1,0 +1,27 @@
+Aiden Thinn
+IGME-330
+Project 1: Audio Visualizer
+
+In order to meet the usability requirement, I have labeled my widgnets clearly, and wrote clear instructions as to how to use them.
+I have also set the default scene to a pleasing preset.
+It is an interactive design because it includes four songs for the user to choose from, and there are two sliders, one for circle size, and one for bass boosting.
+I have also included three filters, and a color picker.
+To meet the canvas API requirement, I have included all the lines, bezier curves, circles, a gradient, rectangles, and a bitmapped image.
+The frequency data is used for both the ring and the heartbeats, while the waveform is used for the bezier curve.
+I made the code well commented and efficent enough to run at a smooth rate with no runtime error.
+
+If I had more time, I would like to format my UI better and add a filter which would allow the user to feel as though they are in a astronaut helmet.
+
+I believe this project should be graded 100, and a 90 with the penalty for lateness.
+
+Credits:
+
+Base starfield code: https://codepen.io/iblamefish/pen/xgefG
+Astronaut image: https://ubisafe.org/explore/astronaut-transparent-8-bit/
+Base bass boost code: https://stackoverflow.com/questions/29110380/web-audio-api-setting-treble-and-bass
+
+Songs:
+Lullaby by Snail's House: https://www.youtube.com/watch?v=H87GqJujcOk
+Ramune by Snail's House: https://www.youtube.com/watch?v=tc6ZWa4X_PE
+Patchwork Staccato by Hasune Miku: https://www.youtube.com/watch?v=gkIpRTq1S6A
+Here Comes A Thought (Cover): https://www.youtube.com/watch?v=F_GHuEKffQ4

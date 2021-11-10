@@ -1,0 +1,26 @@
+body 
+{
+    background: #000;
+    font-family: tahoma, verdana, sans serif;
+}
+
+canvas 
+{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 1000px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    background: black;
+}
+      
+#controls
+{
+    color: white;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    margin-top:10px;
+}
